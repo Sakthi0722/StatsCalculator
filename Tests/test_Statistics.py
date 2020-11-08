@@ -1,4 +1,5 @@
 import unittest
+import numpy as np
 from Statistics.Statistics import Statistics
 from CsvReader.CsvReader import CsvReader
 
@@ -33,14 +34,20 @@ class MyTestCase(unittest.TestCase):
     def test_Variance_method(self):
         test_data = CsvReader("Tests/Data/Variance.csv").data
         value_data = [int(row['Value 1']) for row in test_data]
-        self.assertEqual(self.statistics.stats_variance(value_data), 0.0016)
-        self.assertEqual(self.statistics.result, 0.0016)
+        self.assertEqual(self.statistics.stats_variance(value_data), np.var(value_data))
+        self.assertEqual(self.statistics.result, np.var(value_data))
 
     def test_standard_deviation(self):
-        test_data = CsvReader("Tests/Data/Variance.csv").data
+        test_data = CsvReader("Tests/Data/SD.csv").data
         value_data = [int(row['Value 1']) for row in test_data]
-        self.assertEqual(self.statistics.stats_standard_deviation(value_data), 0.0)
-        self.assertEqual(self.statistics.result, 0.0)
+        self.assertEqual(self.statistics.stats_standard_deviation(value_data), np.std(value_data), 3)
+        self.assertEqual(self.statistics.result, np.std(value_data))
+
+    def test_z_score(self):
+        test_data = CsvReader("Tests/Data/Z_Score.csv").data
+        value_data = [int(row['Value 1']) for row in test_data]
+        self.assertEqual(self.statistics.stats_z_score(value_data), -1.545686339706238)
+        self.assertEqual(self.statistics.result, -1.545686339706238)
 
 
 if __name__ == '__main__':

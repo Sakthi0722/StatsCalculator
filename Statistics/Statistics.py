@@ -26,11 +26,11 @@ class Statistics(Calculator):
         return self.result
 
     def stats_standard_deviation(self, data):
-        self.result = round(standard_deviation(data), 3)
+        self.result = standard_deviation(data)
         return self.result
 
     def stats_variance(self, data):
-        self.result = round(variance(data), 4)
+        self.result = variance(data)
         return self.result
 
     def stats_z_score(self, data):
