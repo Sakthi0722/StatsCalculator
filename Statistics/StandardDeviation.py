@@ -1,8 +1,7 @@
 from Statistics.Variance import variance
-import math
+from Calculator.SquareRoot import sqrt
 
 
 def standard_deviation(data):
     var = variance(data)
-    stand_dev = math.sqrt(var)
-    return stand_dev
+    return sqrt(var)

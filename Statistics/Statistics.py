@@ -14,7 +14,7 @@ class Statistics(Calculator):
         super().__init__()
 
     def stats_mean(self, data):
-        self.result = mean(data)
+        self.result = round(mean(data), 2)
         return self.result
 
     def stats_mode(self, data):
@@ -26,11 +26,11 @@ class Statistics(Calculator):
         return self.result
 
     def stats_standard_deviation(self, data):
-        self.result = standard_deviation(data)
+        self.result = round(standard_deviation(data), 3)
         return self.result
 
     def stats_variance(self, data):
-        self.result = variance(data)
+        self.result = round(variance(data), 4)
         return self.result
 
     def stats_z_score(self, data):
