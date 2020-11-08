@@ -29,7 +29,7 @@ class Statistics(Calculator):
         self.result = standard_deviation(data)
         return self.result
 
-    def variance(self, data):
+    def stats_variance(self, data):
         self.result = variance(data)
         return self.result
 
