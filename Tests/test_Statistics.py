@@ -49,6 +49,30 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.statistics.stats_z_score(value_data), -1.545686339706238)
         self.assertEqual(self.statistics.result, -1.545686339706238)
 
+    def test_conf_int(self):
+        test_data = CsvReader("Tests/Data/Z_Score.csv").data
+        value_data = [int(row['Value 1']) for row in test_data]
+        self.assertEqual(self.statistics.stats_conf_int(value_data), 26.81383)
+        self.assertEqual(self.statistics.result, 26.81383)
+
+    def test_marg_err(self):
+        test_data = CsvReader("Tests/Data/Z_Score.csv").data
+        value_data = [int(row['Value 1']) for row in test_data]
+        self.assertEqual(self.statistics.stats_marg_err(value_data), 15.182094717133074)
+        self.assertEqual(self.statistics.result, 15.182094717133074)
+
+    def test_cochran(self):
+        test_data = CsvReader("Tests/Data/Z_Score.csv").data
+        value_data = [int(row['Value 1']) for row in test_data]
+        self.assertEqual(self.statistics.stats_cochran(value_data), 0.004166666666666667)
+        self.assertEqual(self.statistics.result, 0.004166666666666667)
+
+    def test_samp_size(self):
+        test_data = CsvReader("Tests/Data/Z_Score.csv").data
+        value_data = [int(row['Value 1']) for row in test_data]
+        self.assertEqual(self.statistics.stats_samp_size(value_data), 0.0009788673122310145)
+        self.assertEqual(self.statistics.result, 0.0009788673122310145)
+
 
 if __name__ == '__main__':
     unittest.main()
