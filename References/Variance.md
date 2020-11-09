@@ -21,3 +21,7 @@ To find the variance, we just need to divide this result by the number of observ
 >23.5/6 = 3.916666667
 
 The variance of our data is 3.916666667. The variance is difficult to understand and interpret, particularly how strange its units are.
+
+![Variance](var2.PNG)
+
+![Variance](var3.PNG)
