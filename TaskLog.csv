@@ -1,42 +1,41 @@
 Todo,InProgress,Review,Done
 .gitignore,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
-Readme.md,Sakthisundar Arivudainambi,,
-Calculator.py,Sakthisundar Arivudainambi,,
-Addition.py,Sakthisundar Arivudainambi,,
-Subtraction.py,Sakthisundar Arivudainambi,,
-Multiplication.py,Sakthisundar Arivudainambi,,
-Division.py,Sakthisundar Arivudainambi,,
-Square.py,Sakthisundar Arivudainambi,,
-Square Root.py,Sakthisundar Arivudainambi,,
-CalculatorTest.py,Sakthisundar Arivudainambi,,
-CsvReader.py,Sakthisundar Arivudainambi,,
-absolutepath.py,Sakthisundar Arivudainambi,,
-Dockerfile,Sakthisundar Arivudainambi,,
-Statistics.py,Sakthisundar Arivudainambi,,
-Median.py,Sakthisundar Arivudainambi,,
-Mean.py,Sakthisundar Arivudainambi,,
-Mode.py,Sakthisundar Arivudainambi,,
-Variance.py,Sakthisundar Arivudainambi,,
-Standard Deviation.py,Sakthisundar Arivudainambi,,
-Z Score.py,Sakthisundar Arivudainambi,,
-Cochran.py,Dhaval Dipen Patania,,
-Margin of Error.py,Dhaval Dipen Patania,,
-Confidence Interval.py,Dhaval Dipen Patania,,
-Simple Random Sampling.py,Dhaval Dipen Patania,,
-Sample Size.py,Dhaval Dipen Patania,,
-RandomGenerator.py,Dhaval Dipen Patania,,
-Median.md,Dhaval Dipen Patania,,
-Mean.md,Dhaval Dipen Patania,,
-Mode.md,Dhaval Dipen Patania,,
-Variance.md,Dhaval Dipen Patania,,
-Standard Deviation.md,Dhaval Dipen Patania,,
-Z Score.md,Dhaval Dipen Patania,,
-Cochran.md,Dhaval Dipen Patania,,
-Margin of Error.md,Dhaval Dipen Patania,,
-Confidence Interval.md,Dhaval Dipen Patania,,
-Simple Random Sampling.md,Dhaval Dipen Patania,,
-Sample Size.md,Dhaval Dipen Patania,,
-RandomGenerator.md,Dhaval Dipen Patania,,
-StatisticsTest.py,"Sakthisundar Arivudainambi, Dhaval Dipen Patania",,
-Travisfile,Sakthisundar Arivudainambi,,
-requirements.txt,Sakthisundar Arivudainambi,,
+Readme.md,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+Calculator.py,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+Addition.py,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+Subtraction.py,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+Multiplication.py,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+Division.py,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+Square.py,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+Square Root.py,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+CalculatorTest.py,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+CsvReader.py,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+absolutepath.py,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+Dockerfile,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+Statistics.py,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+Median.py,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+Mean.py,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+Mode.py,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+Variance.py,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+Standard Deviation.py,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+Z Score.py,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+Cochran.py,Dhaval Dipen Patania,Sakthisundar Arivudainambi,Checked
+Margin of Error.py,Dhaval Dipen Patania,Sakthisundar Arivudainambi,Checked
+Confidence Interval.py,Dhaval Dipen Patania,Sakthisundar Arivudainambi,Checked
+Simple Random Sampling.py,Dhaval Dipen Patania,Sakthisundar Arivudainambi,Checked
+Sample Size.py,Dhaval Dipen Patania,Sakthisundar Arivudainambi,Checked
+RandomGenerator.py,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+Median.md,Dhaval Dipen Patania,Dhaval Dipen Patania,Checked
+Mean.md,Dhaval Dipen Patania,Dhaval Dipen Patania,Checked
+Mode.md,Dhaval Dipen Patania,Dhaval Dipen Patania,Checked
+Variance.md,Dhaval Dipen Patania,Dhaval Dipen Patania,Checked
+Z Score.md,Dhaval Dipen Patania,Dhaval Dipen Patania,Checked
+Cochran.md,Dhaval Dipen Patania,Dhaval Dipen Patania,Checked
+Margin of Error.md,Dhaval Dipen Patania,Dhaval Dipen Patania,Checked
+Confidence Interval.md,Dhaval Dipen Patania,Dhaval Dipen Patania,Checked
+Simple Random Sampling.md,Dhaval Dipen Patania,Dhaval Dipen Patania,Checked
+Sample Size.md,Dhaval Dipen Patania,Dhaval Dipen Patania,Checked
+RandomGenerator.md,Dhaval Dipen Patania,Dhaval Dipen Patania,Checked
+StatisticsTest.py,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+Travisfile,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
+requirements.txt,Sakthisundar Arivudainambi,Sakthisundar Arivudainambi,Checked
