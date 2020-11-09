@@ -9,3 +9,4 @@ To calculate the variance in a dataset, we first need to find the difference bet
 ![Variance]("Images/variance.PNG")
 
 
+ 
